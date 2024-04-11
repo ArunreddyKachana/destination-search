@@ -1,4 +1,4 @@
-In this project, let's build a **Destination Search** app by applying the concepts we have learned till now.
+Building a **Destination Search** app.
 
 ### Refer to the image below:
 
@@ -33,19 +33,6 @@ In this project, let's build a **Destination Search** app by applying the concep
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
-
-- Initially, all destinations in the `destinationsList` should be displayed
-- When a value is provided in the search input, only the destinations whose names contain the value provided in the search input should be displayed irrespective of the case
-- The `DestinationSearch` component receives the `destinationsList` as a prop. It consists of a list of destination objects with the following properties in each destination object
-
-  |  Key   | Data Type |
-  | :----: | :-------: |
-  |   id   |  Number   |
-  |  name  |  String   |
-  | imgUrl |  String   |
-
-</details>
 
 <details>
 <summary>Components Structure</summary>
@@ -62,7 +49,7 @@ The app must have the following functionalities
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Files used to complete the implementation:
 
 - `src/components/DestinationSearch/index.js`
 - `src/components/DestinationSearch/index.css`
@@ -77,18 +64,7 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
 
-- The search for the destination should be case insensitive. You can use the `toLowerCase` method to convert a string into lower case letters.
-
-  ```js
-  const text = 'Learn JavaScript'
-  console.log(text.toLowerCase()); // learn javascript
-  ```
-
-- Each `DestinationItem` should have an HTML image element with `alt` attribute value as the value of the key **name** in `destinationsList`
-
-</details>
 
 ### Resources
 
